@@ -10,12 +10,13 @@ public class AboutString {
 
     public String letters(){
        String result="programming is fun";
+       String aa="";
        System.out.println(result.toUpperCase());
-       result+="<br/n>" + result.toUpperCase();
+       aa+="<br/n>" + result.toUpperCase();
        System.out.println(result.toLowerCase());
-      result+="<br/n>" + result.toLowerCase();
+      aa+="<br/n>" + result.toLowerCase();
 
-       return result;
+       return aa;
    }
 
 }
